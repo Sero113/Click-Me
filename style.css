@@ -1,0 +1,59 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+/* Aliging the button and text in my Page*/
+
+
+.flex{
+display: inline-block;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 250px;
+
+    
+
+}
+
+.flex2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* the result of button clicked times text color and size*/
+
+
+.result {
+font-size: 18px;
+font-weight: 500;
+color: #fc0000;
+}
+
+
+/* The design of the Button*/
+.btn{
+background: pink;
+border: solid black;
+border-radius: 5px;
+height: 80px;
+width: 200px;
+margin-top: 20px;
+font-size: 30px;
+letter-spacing: 2px;
+
+}
+
+/* The text under the button*/
+
+#legend{
+margin-top: 40px;
+font-size: 30px;}
