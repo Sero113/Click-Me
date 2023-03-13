@@ -18,21 +18,21 @@ btnEle.addEventListener("click", () => {
   if (clickCount > 100) {
     h2Ele.innerHTML = "Click Faster!!";
     
-    if (clickCount > 200) {
+    if (clickCount > 150) {
     h2Ele.innerHTML = "Omg Dont Stop!!";
         
     } else {
         
     }
 
-    if (clickCount > 400) {
+    if (clickCount > 200) {
     h2Ele.innerHTML = "Your almost there!!";
         
     } else {
         
     }
 
-    if (clickCount > 500) {
+    if (clickCount > 300) {
     h2Ele.innerHTML = "Yeah its finished!";
       
     } else {
@@ -46,8 +46,8 @@ btnEle.addEventListener("click", () => {
 
 /* Text inside button changing when reached required amount*/
 
-if (clickCount > 500){
-btnEle.innerHTML = "Thanks bro bro";
+if (clickCount > 300){
+btnEle.innerHTML = "Nice Job";
 }
 
 /* The background color of the webpage that changes on required click amount*/
@@ -70,7 +70,7 @@ btnEle.innerHTML = "Thanks bro bro";
         
     }
 
-    if (clickCount > 400) {
+    if (clickCount > 250) {
     document.body.style.backgroundColor ='pink';
         
     } else {
@@ -79,7 +79,7 @@ btnEle.innerHTML = "Thanks bro bro";
 
     /* The text under the button and the background image surprize*/
 
-    if (clickCount > 500) {
+    if (clickCount > 300) {
 
       document.body.style.backgroundImage = "url('images/scaredDog.jpg')";
       
@@ -87,7 +87,7 @@ btnEle.innerHTML = "Thanks bro bro";
       
     }
     legendEle.style.color = '#000';
-    if (clickCount > 500) {
+    if (clickCount > 300) {
      
     legendEle.innerHTML = "Your a sick being  " + "You really touched me that much......"
     document.getElementById("legend").style.color = "red";
